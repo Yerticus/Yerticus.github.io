@@ -36,7 +36,7 @@ Makes things look pretty!
 
 ### Summary
 >A web server hosts a site on a local server connected to a network. 
-A user searches for a wbesite by typing the domain name into the url/web browser.
+A user searches for a website by typing the domain name into the url/web browser.
 A DNS connects to the host server and translates the domain name into it's IP address. 
 That is then sent back to the user in order to view the webpages of that website.......
 
@@ -44,5 +44,7 @@ That is then sent back to the user in order to view the webpages of that website
 
 ### End of Day Summary
 Think about everything you learned today! What was the theme? Did anything stick out to you as very easy and very difficult? Very well explained way of deploying a website on github.
+
 Did you need to research anything else that was not provided in the lessons? What is CSS!
+
 How would you describe what you learned to someone who doesn't understand computers or the internet? Slowly and with patience. Probably tell them to google.
