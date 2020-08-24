@@ -18,6 +18,12 @@
     background-color: rgb(194, 194, 194); /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  .sidebar:hover {
+    color: #ff0000;
+    background-color: burlywood;
   }
 
 .contentArea {
