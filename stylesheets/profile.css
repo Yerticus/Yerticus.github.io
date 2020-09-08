@@ -3,7 +3,7 @@
   }
   p {
     color: rgb(0, 0, 0);
-    font: 500;
+    font-size: 16px;
   }
   body {
     margin-top: 50px;
@@ -33,5 +33,9 @@
 }
 .toolbar a:hover {
     text-decoration: none;
-    background-color: rgb(8, 0, 114);
+    background-color: rgb(0, 201, 151);
+}
+.toolbar a:active {
+  text-decoration: none;
+  background-color:  rgb(33, 0, 153);
 }
