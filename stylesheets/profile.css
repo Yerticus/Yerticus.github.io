@@ -1,10 +1,56 @@
-  h1 {
-    color: blue;
+.nav {
+
+  width: 100%;
+  height: 40px;
+  background-color: rgb(184, 184, 184);
+
+}
+/*.nav-pages ul li{
+  color: whitesmoke;
+  padding: 2px;
+  border: 2px solid blue;
+  background-color: rgb(119, 119, 119);
+  display: inline-flex;
+  margin: 5px;
+}*/
+.nav-pages ul{
+  display: inline-flex;
+  margin: 10px;
+}
+.nav-pages ul li a{
+  list-style: none;
+  margin:0 20px;
+  color: #ffffff;
+}
+.nav-pages li:hover {
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-pages li:active {
+  text-decoration: none;
+  background-color:  rgb(33, 0, 153);
+}
+.social-links a{
+  top: 40px;
+  right: 80px;
+  margin: 5px;
+}
+.content{
+    width: 100%;
+    height: 70%;
+    top: 25%;
+
   }
-  p {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
+.mma-text {
+    color: #ffffff ;
+    width: 70%;
+    font-size:16px;
+    float: right;
   }
+.mma-text h1{
+  font-size: 18px;
+}
   body {
     /*background-image: url(../Images/Canyon2.jpg);*/
     padding: 10px;
@@ -16,30 +62,8 @@
     background-size:cover;
   }
   ul {
-    color: blue;
+    list-style: none;
+    color: rgb(199, 199, 255);
     font-stretch: condensed;
 
   }
-
-.header {
-
-    width: 100%;
-    padding: 5px;
-    background-color: rgb(184, 184, 184);
-
-}
-
-.header a {
-    color: whitesmoke;
-    padding: 2px;
-    border: 3px solid blue;
-    background-color: rgb(119, 119, 119);
-}
-.header a:hover {
-    text-decoration: none;
-    background-color: rgb(0, 201, 151);
-}
-.header a:active {
-  text-decoration: none;
-  background-color:  rgb(33, 0, 153);
-}
